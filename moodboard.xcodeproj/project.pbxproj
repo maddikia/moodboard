@@ -16,6 +16,10 @@
 		42726E922678FC4F00B205ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42726E902678FC4F00B205ED /* LaunchScreen.storyboard */; };
 		42726E9D2678FC4F00B205ED /* moodboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42726E9C2678FC4F00B205ED /* moodboardTests.swift */; };
 		42726EA82678FC4F00B205ED /* moodboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42726EA72678FC4F00B205ED /* moodboardUITests.swift */; };
+		42726EB926790D6700B205ED /* ReadingViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42726EB826790D6700B205ED /* ReadingViewTableViewController.swift */; };
+		42726EBE26790D7400B205ED /* SongViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42726EBD26790D7400B205ED /* SongViewTableViewController.swift */; };
+		42726EC326790DBF00B205ED /* RecommendationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42726EC226790DBF00B205ED /* RecommendationViewController.swift */; };
+		42726EC826790DCE00B205ED /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42726EC726790DCE00B205ED /* ResourcesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		42726EA32678FC4F00B205ED /* moodboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moodboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42726EA72678FC4F00B205ED /* moodboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moodboardUITests.swift; sourceTree = "<group>"; };
 		42726EA92678FC4F00B205ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42726EB826790D6700B205ED /* ReadingViewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingViewTableViewController.swift; sourceTree = "<group>"; };
+		42726EBD26790D7400B205ED /* SongViewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongViewTableViewController.swift; sourceTree = "<group>"; };
+		42726EC226790DBF00B205ED /* RecommendationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationViewController.swift; sourceTree = "<group>"; };
+		42726EC726790DCE00B205ED /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,10 @@
 				42726E902678FC4F00B205ED /* LaunchScreen.storyboard */,
 				42726E932678FC4F00B205ED /* Info.plist */,
 				42726E8B2678FC4D00B205ED /* moodboard.xcdatamodeld */,
+				42726EB826790D6700B205ED /* ReadingViewTableViewController.swift */,
+				42726EBD26790D7400B205ED /* SongViewTableViewController.swift */,
+				42726EC226790DBF00B205ED /* RecommendationViewController.swift */,
+				42726EC726790DCE00B205ED /* ResourcesViewController.swift */,
 			);
 			path = moodboard;
 			sourceTree = "<group>";
@@ -262,9 +274,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				42726E872678FC4D00B205ED /* ViewController.swift in Sources */,
+				42726EC326790DBF00B205ED /* RecommendationViewController.swift in Sources */,
+				42726EC826790DCE00B205ED /* ResourcesViewController.swift in Sources */,
 				42726E8D2678FC4D00B205ED /* moodboard.xcdatamodeld in Sources */,
 				42726E832678FC4D00B205ED /* AppDelegate.swift in Sources */,
+				42726EB926790D6700B205ED /* ReadingViewTableViewController.swift in Sources */,
 				42726E852678FC4D00B205ED /* SceneDelegate.swift in Sources */,
+				42726EBE26790D7400B205ED /* SongViewTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
