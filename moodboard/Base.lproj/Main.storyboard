@@ -62,7 +62,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Sad"/>
                                 <connections>
-                                    <action selector="sadTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X8A-Bf-l8R"/>
+                                    <action selector="emotionSadTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q2o-RD-6JC"/>
                                     <segue destination="UGX-u5-3eO" kind="show" id="ieJ-mP-2xD"/>
                                 </connections>
                             </button>
@@ -211,11 +211,19 @@
                         </barButtonItem>
                     </toolbarItems>
                     <navigationItem key="navigationItem" title="Your Recommendations" id="jdu-3m-pMU">
-                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="d1D-bv-uEW"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="d1D-bv-uEW">
+                            <connections>
+                                <action selector="refresh:" destination="UGX-u5-3eO" id="gKc-Jx-VUU"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="bookAuthor" destination="v9p-LF-Loz" id="92z-CN-oDm"/>
+                        <outlet property="bookTitle" destination="YAt-SZ-d9M" id="eu5-73-Nrj"/>
                         <outlet property="mood" destination="oSa-sr-gCZ" id="Beh-22-147"/>
+                        <outlet property="songArtist" destination="1F3-o0-YSm" id="BDU-Rn-rab"/>
+                        <outlet property="songTitle" destination="FL5-hT-pcM" id="OVv-Oa-KJT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sbs-d2-ZW3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -362,7 +370,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="XWY-Qs-9I8"/>
+        <segue reference="Oec-wj-n8q"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">

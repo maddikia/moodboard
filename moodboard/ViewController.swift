@@ -24,8 +24,8 @@ class ViewController: UIViewController {
         emotion = "happy"
     }
     
-    // this triggers *after* segue and i couldn't tell you why
-    @IBAction func sadTapped(_ sender: Any) {
+    // renamed because compiles alphabetically
+    @IBAction func emotionSadTapped(_ sender: Any) {
         emotion = "sad"
     }
     
