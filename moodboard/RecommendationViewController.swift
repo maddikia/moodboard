@@ -8,10 +8,14 @@
 import UIKit
 
 class RecommendationViewController: UIViewController {
+    
+    @IBOutlet weak var mood: UILabel!
+    var emotion : String = "n/a"
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        mood?.text = emotion
         // Do any additional setup after loading the view.
     }
     

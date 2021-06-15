@@ -52,6 +52,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Happy"/>
                                 <connections>
+                                    <action selector="happyTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="siJ-ry-2O7"/>
                                     <segue destination="UGX-u5-3eO" kind="show" id="XWY-Qs-9I8"/>
                                 </connections>
                             </button>
@@ -61,7 +62,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Sad"/>
                                 <connections>
-                                    <segue destination="UGX-u5-3eO" kind="show" id="bw7-yh-KRt"/>
+                                    <action selector="sadTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X8A-Bf-l8R"/>
+                                    <segue destination="UGX-u5-3eO" kind="show" id="ieJ-mP-2xD"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4VY-NQ-Zna">
@@ -70,6 +72,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Angry"/>
                                 <connections>
+                                    <action selector="angryTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4dn-WQ-nFe"/>
                                     <segue destination="UGX-u5-3eO" kind="show" id="0q6-HQ-qjU"/>
                                 </connections>
                             </button>
@@ -79,6 +82,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Nervous"/>
                                 <connections>
+                                    <action selector="nervousTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nhn-e7-DOJ"/>
                                     <segue destination="UGX-u5-3eO" kind="show" id="Oec-wj-n8q"/>
                                 </connections>
                             </button>
@@ -107,6 +111,12 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Mood Selection" id="omI-1W-eCl"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="angryButton" destination="4VY-NQ-Zna" id="dm7-yo-12G"/>
+                        <outlet property="happyButton" destination="WZz-xM-zFq" id="yMx-A4-hpY"/>
+                        <outlet property="nervousButton" destination="KFu-bY-nEp" id="hAH-y6-p6q"/>
+                        <outlet property="sadButton" destination="8i8-B8-YTC" id="ZZY-xI-erx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -204,6 +214,9 @@
                         <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="d1D-bv-uEW"/>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="mood" destination="oSa-sr-gCZ" id="Beh-22-147"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sbs-d2-ZW3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -349,7 +362,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="bw7-yh-KRt"/>
+        <segue reference="XWY-Qs-9I8"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
