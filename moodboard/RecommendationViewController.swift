@@ -30,6 +30,58 @@ class RecommendationViewController: UIViewController {
     
     func getRecommendations() {
         // TODO: Write csv reading, make lists, pick rec (switch case by emotion)
+        
+        let defaultBooks = ["B1", "B2", "B3", "B4", "B5"]
+        let defaultAuthors = ["A1", "A2", "A3", "A4", "A5"]
+        let defaultSongs = ["S1", "S2", "S3", "S4", "S5"]
+        let defaultArtists = ["A1", "A2", "A3", "A4", "A5"]
+        let happyBooks = ["Happy Book 1", "Happy Book 2"]
+        let happyBooksAuthors = ["Happy Book 1 Author", "Happy Book 2 Author"]
+        
+        var bookTitles : [String] = []
+        var authorNames : [String] = []
+        var songTitles : [String] = []
+        var artistNames : [String] = []
+        
+        switch emotion {
+        
+            case "happy":
+                bookTitles = happyBooks
+                authorNames = happyBooksAuthors
+                songTitles = defaultSongs
+                artistNames = defaultArtists
+                break
+            case "sad":
+                bookTitles = defaultBooks
+                authorNames = defaultAuthors
+                songTitles = defaultSongs
+                artistNames = defaultArtists
+                break
+            case "angry":
+                bookTitles = defaultBooks
+                authorNames = defaultAuthors
+                songTitles = defaultSongs
+                artistNames = defaultArtists
+                break
+            case "nervous":
+                bookTitles = defaultBooks
+                authorNames = defaultAuthors
+                songTitles = defaultSongs
+                artistNames = defaultArtists
+                break
+            default:
+                print("Something has gone wrong.")
+                // do nothing
+                break
+        }
+        
+        let bookNum = Int.random(in: 0..<bookTitles.count)
+        bookTitle?.text = bookTitles[bookNum]
+        bookAuthor?.text = "by " + authorNames[bookNum]
+        
+        let songNum = Int.random(in: 0..<songTitles.count)
+        songTitle?.text = songTitles[songNum]
+        songArtist?.text = "by " + artistNames[songNum]
     }
     
     /*
