@@ -28,28 +28,28 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lyc-mC-NtS">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="happy-smiley" translatesAutoresizingMaskIntoConstraints="NO" id="lyc-mC-NtS">
                                 <rect key="frame" x="114" y="296" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="VoF-J9-eM8"/>
                                     <constraint firstAttribute="width" constant="60" id="n8L-Ci-D9o"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NDB-hx-71h">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sad-smiley" translatesAutoresizingMaskIntoConstraints="NO" id="NDB-hx-71h">
                                 <rect key="frame" x="114" y="406" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="NlO-M7-8dV"/>
                                     <constraint firstAttribute="width" constant="60" id="lir-pv-u2Z"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0Ul-ZY-E7T">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="angry-smiley" translatesAutoresizingMaskIntoConstraints="NO" id="0Ul-ZY-E7T">
                                 <rect key="frame" x="114" y="516" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="6k9-2J-dOn"/>
                                     <constraint firstAttribute="height" constant="60" id="pQj-S4-yNY"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zep-Ze-5un">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nervous-smiley" translatesAutoresizingMaskIntoConstraints="NO" id="zep-Ze-5un">
                                 <rect key="frame" x="114" y="626" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="08K-DJ-n5j"/>
@@ -195,7 +195,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Auj-oW-OTq">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="book-icon" translatesAutoresizingMaskIntoConstraints="NO" id="Auj-oW-OTq">
                                 <rect key="frame" x="53" y="288" width="91" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -226,7 +226,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7uf-0F-oDf">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="song-icon" translatesAutoresizingMaskIntoConstraints="NO" id="7uf-0F-oDf">
                                 <rect key="frame" x="53" y="568" width="91" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -404,6 +404,12 @@
         <segue reference="Oec-wj-n8q"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="angry-smiley" width="205" height="207"/>
+        <image name="book-icon" width="1080" height="1080"/>
+        <image name="happy-smiley" width="203" height="206"/>
+        <image name="nervous-smiley" width="203" height="206"/>
+        <image name="sad-smiley" width="203" height="206"/>
+        <image name="song-icon" width="1080" height="1080"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
