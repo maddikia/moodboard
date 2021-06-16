@@ -20,6 +20,9 @@
 		42726EBE26790D7400B205ED /* SongViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42726EBD26790D7400B205ED /* SongViewTableViewController.swift */; };
 		42726EC326790DBF00B205ED /* RecommendationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42726EC226790DBF00B205ED /* RecommendationViewController.swift */; };
 		42726EC826790DCE00B205ED /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42726EC726790DCE00B205ED /* ResourcesViewController.swift */; };
+		42726F83267A7DFC00B205ED /* MediaInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42726F82267A7DFC00B205ED /* MediaInfo.swift */; };
+		42726F88267A7E2D00B205ED /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42726F87267A7E2D00B205ED /* DataLoader.swift */; };
+		42726F95267A80C500B205ED /* happyBooks.json in Resources */ = {isa = PBXBuildFile; fileRef = 42726F94267A80C500B205ED /* happyBooks.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,9 @@
 		42726EBD26790D7400B205ED /* SongViewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongViewTableViewController.swift; sourceTree = "<group>"; };
 		42726EC226790DBF00B205ED /* RecommendationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationViewController.swift; sourceTree = "<group>"; };
 		42726EC726790DCE00B205ED /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
+		42726F82267A7DFC00B205ED /* MediaInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaInfo.swift; sourceTree = "<group>"; };
+		42726F87267A7E2D00B205ED /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		42726F94267A80C500B205ED /* happyBooks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = happyBooks.json; path = ../../../../Downloads/happyBooks.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,7 @@
 				42726E862678FC4D00B205ED /* ViewController.swift */,
 				42726E882678FC4D00B205ED /* Main.storyboard */,
 				42726E8E2678FC4F00B205ED /* Assets.xcassets */,
+				42726F94267A80C500B205ED /* happyBooks.json */,
 				42726E902678FC4F00B205ED /* LaunchScreen.storyboard */,
 				42726E932678FC4F00B205ED /* Info.plist */,
 				42726E8B2678FC4D00B205ED /* moodboard.xcdatamodeld */,
@@ -121,6 +128,8 @@
 				42726EBD26790D7400B205ED /* SongViewTableViewController.swift */,
 				42726EC226790DBF00B205ED /* RecommendationViewController.swift */,
 				42726EC726790DCE00B205ED /* ResourcesViewController.swift */,
+				42726F82267A7DFC00B205ED /* MediaInfo.swift */,
+				42726F87267A7E2D00B205ED /* DataLoader.swift */,
 			);
 			path = moodboard;
 			sourceTree = "<group>";
@@ -249,6 +258,7 @@
 				42726E922678FC4F00B205ED /* LaunchScreen.storyboard in Resources */,
 				42726E8F2678FC4F00B205ED /* Assets.xcassets in Resources */,
 				42726E8A2678FC4D00B205ED /* Main.storyboard in Resources */,
+				42726F95267A80C500B205ED /* happyBooks.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,11 +283,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42726F88267A7E2D00B205ED /* DataLoader.swift in Sources */,
 				42726E872678FC4D00B205ED /* ViewController.swift in Sources */,
 				42726EC326790DBF00B205ED /* RecommendationViewController.swift in Sources */,
 				42726EC826790DCE00B205ED /* ResourcesViewController.swift in Sources */,
 				42726E8D2678FC4D00B205ED /* moodboard.xcdatamodeld in Sources */,
 				42726E832678FC4D00B205ED /* AppDelegate.swift in Sources */,
+				42726F83267A7DFC00B205ED /* MediaInfo.swift in Sources */,
 				42726EB926790D6700B205ED /* ReadingViewTableViewController.swift in Sources */,
 				42726E852678FC4D00B205ED /* SceneDelegate.swift in Sources */,
 				42726EBE26790D7400B205ED /* SongViewTableViewController.swift in Sources */,
