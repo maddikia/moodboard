@@ -20,7 +20,23 @@ class RecommendationViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        mood?.text = emotion
+        switch emotion {
+            case "happy":
+                mood?.text = "happy quote"
+                break
+            case "sad":
+                mood?.text = "sad quote"
+                break
+            case "angry":
+                mood?.text = "angry quote"
+                break
+            case "nervous":
+                mood?.text = "nervous quote"
+                break
+            default:
+                mood?.text = "Something has gone wrong."
+                break
+        }
         getRecommendations()
     }
     
