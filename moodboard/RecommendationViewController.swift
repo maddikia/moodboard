@@ -18,6 +18,14 @@ class RecommendationViewController: UIViewController {
     var emotion : String = "n/a"
     
     let happyBooks = DataLoader(file: "happyBooks").mediaData
+    let sadBooks = DataLoader(file: "sadBooks").mediaData
+    let angryBooks = DataLoader(file: "angryBooks").mediaData
+    let nervousBooks = DataLoader(file: "nervousBooks").mediaData
+    
+    let happySongs = DataLoader(file: "happySongs").mediaData
+    let sadSongs = DataLoader(file: "sadSongs").mediaData
+    let angrySongs = DataLoader(file: "angrySongs").mediaData
+    let nervousSongs = DataLoader(file: "nervousSongs").mediaData
     
 
     override func viewDidLoad() {
@@ -47,7 +55,6 @@ class RecommendationViewController: UIViewController {
     }
     
     func getRecommendations() {
-        // TODO: Write csv reading, make lists, pick rec (switch case by emotion)
         
         var books : [MediaInfo] = []
         var songs : [MediaInfo] = []
@@ -56,19 +63,19 @@ class RecommendationViewController: UIViewController {
         
             case "happy":
                 books = happyBooks
-                songs = happyBooks
+                songs = happySongs
                 break
             case "sad":
-                books = happyBooks
-                songs = happyBooks
+                books = sadBooks
+                songs = sadSongs
                 break
             case "angry":
-                books = happyBooks
-                songs = happyBooks
+                books = angryBooks
+                songs = angrySongs
                 break
             case "nervous":
-                books = happyBooks
-                songs = happyBooks
+                books = nervousBooks
+                songs = nervousSongs
                 break
             default:
                 print("Something has gone wrong.")

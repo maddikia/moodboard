@@ -22,7 +22,14 @@
 		42726EC826790DCE00B205ED /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42726EC726790DCE00B205ED /* ResourcesViewController.swift */; };
 		42726F83267A7DFC00B205ED /* MediaInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42726F82267A7DFC00B205ED /* MediaInfo.swift */; };
 		42726F88267A7E2D00B205ED /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42726F87267A7E2D00B205ED /* DataLoader.swift */; };
-		42726F95267A80C500B205ED /* happyBooks.json in Resources */ = {isa = PBXBuildFile; fileRef = 42726F94267A80C500B205ED /* happyBooks.json */; };
+		42726FBE267A88A700B205ED /* angrySongs.json in Resources */ = {isa = PBXBuildFile; fileRef = 42726FB6267A88A600B205ED /* angrySongs.json */; };
+		42726FBF267A88A700B205ED /* happyBooks.json in Resources */ = {isa = PBXBuildFile; fileRef = 42726FB7267A88A600B205ED /* happyBooks.json */; };
+		42726FC0267A88A700B205ED /* sadSongs.json in Resources */ = {isa = PBXBuildFile; fileRef = 42726FB8267A88A700B205ED /* sadSongs.json */; };
+		42726FC1267A88A700B205ED /* nervousBooks.json in Resources */ = {isa = PBXBuildFile; fileRef = 42726FB9267A88A700B205ED /* nervousBooks.json */; };
+		42726FC2267A88A700B205ED /* nervousSongs.json in Resources */ = {isa = PBXBuildFile; fileRef = 42726FBA267A88A700B205ED /* nervousSongs.json */; };
+		42726FC3267A88A700B205ED /* happySongs.json in Resources */ = {isa = PBXBuildFile; fileRef = 42726FBB267A88A700B205ED /* happySongs.json */; };
+		42726FC4267A88A700B205ED /* angryBooks.json in Resources */ = {isa = PBXBuildFile; fileRef = 42726FBC267A88A700B205ED /* angryBooks.json */; };
+		42726FC5267A88A700B205ED /* sadBooks.json in Resources */ = {isa = PBXBuildFile; fileRef = 42726FBD267A88A700B205ED /* sadBooks.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +71,14 @@
 		42726EC726790DCE00B205ED /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
 		42726F82267A7DFC00B205ED /* MediaInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaInfo.swift; sourceTree = "<group>"; };
 		42726F87267A7E2D00B205ED /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
-		42726F94267A80C500B205ED /* happyBooks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = happyBooks.json; path = ../../../../Downloads/happyBooks.json; sourceTree = "<group>"; };
+		42726FB6267A88A600B205ED /* angrySongs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = angrySongs.json; sourceTree = "<group>"; };
+		42726FB7267A88A600B205ED /* happyBooks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = happyBooks.json; sourceTree = "<group>"; };
+		42726FB8267A88A700B205ED /* sadSongs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sadSongs.json; sourceTree = "<group>"; };
+		42726FB9267A88A700B205ED /* nervousBooks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nervousBooks.json; sourceTree = "<group>"; };
+		42726FBA267A88A700B205ED /* nervousSongs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nervousSongs.json; sourceTree = "<group>"; };
+		42726FBB267A88A700B205ED /* happySongs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = happySongs.json; sourceTree = "<group>"; };
+		42726FBC267A88A700B205ED /* angryBooks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = angryBooks.json; sourceTree = "<group>"; };
+		42726FBD267A88A700B205ED /* sadBooks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sadBooks.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,9 +132,16 @@
 				42726E822678FC4D00B205ED /* AppDelegate.swift */,
 				42726E842678FC4D00B205ED /* SceneDelegate.swift */,
 				42726E862678FC4D00B205ED /* ViewController.swift */,
+				42726FBC267A88A700B205ED /* angryBooks.json */,
+				42726FB6267A88A600B205ED /* angrySongs.json */,
+				42726FB7267A88A600B205ED /* happyBooks.json */,
+				42726FBB267A88A700B205ED /* happySongs.json */,
+				42726FB9267A88A700B205ED /* nervousBooks.json */,
+				42726FBA267A88A700B205ED /* nervousSongs.json */,
+				42726FBD267A88A700B205ED /* sadBooks.json */,
+				42726FB8267A88A700B205ED /* sadSongs.json */,
 				42726E882678FC4D00B205ED /* Main.storyboard */,
 				42726E8E2678FC4F00B205ED /* Assets.xcassets */,
-				42726F94267A80C500B205ED /* happyBooks.json */,
 				42726E902678FC4F00B205ED /* LaunchScreen.storyboard */,
 				42726E932678FC4F00B205ED /* Info.plist */,
 				42726E8B2678FC4D00B205ED /* moodboard.xcdatamodeld */,
@@ -255,10 +276,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42726FC4267A88A700B205ED /* angryBooks.json in Resources */,
+				42726FC1267A88A700B205ED /* nervousBooks.json in Resources */,
+				42726FC3267A88A700B205ED /* happySongs.json in Resources */,
 				42726E922678FC4F00B205ED /* LaunchScreen.storyboard in Resources */,
+				42726FC0267A88A700B205ED /* sadSongs.json in Resources */,
 				42726E8F2678FC4F00B205ED /* Assets.xcassets in Resources */,
+				42726FC5267A88A700B205ED /* sadBooks.json in Resources */,
+				42726FBE267A88A700B205ED /* angrySongs.json in Resources */,
+				42726FC2267A88A700B205ED /* nervousSongs.json in Resources */,
+				42726FBF267A88A700B205ED /* happyBooks.json in Resources */,
 				42726E8A2678FC4D00B205ED /* Main.storyboard in Resources */,
-				42726F95267A80C500B205ED /* happyBooks.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
