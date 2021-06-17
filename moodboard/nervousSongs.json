@@ -1,18 +1,23 @@
 [
     {
-        "title" : "title",
-        "author" : "artist"
+        "title" : "Bloom",
+        "artist" : "The Paper Kites"
     },
     {
-        "title" : "title",
-        "author" : "artist"
+        "title" : "Re:Stacks",
+        "artist" : "Bon Iver"
     },
     {
-        "title" : "title",
-        "author" : "artist"
+        "title" : "Old Pine",
+        "artist" : "Ben Howard"
     },
     {
-        "title" : "title",
-        "author" : "artist"
+        "title" : "Featherstone",
+        "artist" : "The Paper Kites"
     },
+    {
+        "title" : "Cottage Roads",
+        "artist" : "The Walters"
+    },
+
 ]

@@ -1,18 +1,38 @@
 [
     {
-        "title" : "title",
-        "author" : "artist"
+        "title" : "Dog Days Are Over",
+        "artist" : "Florence + The Machine"
     },
     {
-        "title" : "title",
-        "author" : "artist"
+        "title" : "Midnight City",
+        "artist" : "M83"
     },
     {
-        "title" : "title",
-        "author" : "artist"
+        "title" : "What You Know",
+        "artist" : "Two Door Cinema Club"
     },
     {
-        "title" : "title",
-        "author" : "artist"
+        "title" : "Feel Good Inc.",
+        "artist" : "Gorillaz"
+    },
+    {
+        "title" : "Tongue Tied",
+        "artist" : "Grouplove"
+    },
+    {
+        "title" : "Walking On A Dream",
+        "artist" : "Empire of the Sun"
+    },
+    {
+        "title" : "The King",
+        "artist" : "Sarah Kinsley"
+    },
+    {
+        "title" : "Electric Feel",
+        "artist" : "MGMT"
+    },
+    {
+        "title" : "Electric Love",
+        "artist" : "Borns"
     },
 ]

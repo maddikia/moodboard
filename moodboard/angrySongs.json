@@ -1,18 +1,54 @@
 [
     {
-        "title" : "title",
-        "author" : "artist"
+        "title" : "Do I Wanna Know?",
+        "artist" : "Arctic Monkeys"
     },
     {
-        "title" : "title",
-        "author" : "artist"
+        "title" : "Elephant",
+        "artist" : "Tame Impala"
     },
     {
-        "title" : "title",
-        "author" : "artist"
+        "title" : "Hayloft",
+        "artist" : "Mother Mother"
     },
     {
-        "title" : "title",
-        "author" : "artist"
+        "title" : "Hush",
+        "artist" : "The Marias"
+    },
+    {
+        "title" : "good 4 u",
+        "artist" : "Olivia Rodrigo"
+    },
+    {
+        "title" : "Left Hand Free",
+        "artist" : "alt-J"
+    },
+    {
+        "title" : "Black Out Days",
+        "artist" : "Phantogram"
+    },
+    {
+        "title" : "Therefore I Am",
+        "artist" : "Billie Eilish"
+    },
+    {
+        "title" : "505",
+        "artist" : "Arctic Monkeys"
+    },
+    {
+        "title" : "Seven Nation Army",
+        "artist" : "The White Stripes"
+    },
+    {
+        "title" : "When You Die",
+        "artist" : "MGMT"
+    },
+    {
+        "title" : "Pleaser",
+        "artist" : "Wallows"
+    },
+    {
+        "title" : "Dangerous",
+        "artist" : "Big Data"
     },
 ]
