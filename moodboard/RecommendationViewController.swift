@@ -33,15 +33,19 @@ class RecommendationViewController: UIViewController {
         switch emotion {
             case "happy":
                 mood?.text = "happy quote"
+                yellowBackground()
                 break
             case "sad":
                 mood?.text = "sad quote"
+                blueBackground()
                 break
             case "angry":
                 mood?.text = "angry quote"
+                redBackground()
                 break
             case "nervous":
                 mood?.text = "nervous quote"
+                greenBackground()
                 break
             default:
                 mood?.text = "Something has gone wrong."
@@ -101,5 +105,39 @@ class RecommendationViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    func yellowBackground() {
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.frame = self.view.bounds
+        
+        gradientLayer.colors = [UIColor.init(red: 1.00, green: 0.93, blue: 0.60, alpha: 1.00).cgColor, UIColor.init(red: 0.97,  green: 0.84, blue: 0.15, alpha: 1.00).cgColor, UIColor.init(red: 0.97, green: 0.84, blue: 0.15, alpha: 1.00).cgColor, UIColor.init(red: 0.97, green: 0.84, blue: 0.15, alpha: 1.00).cgColor]
+        self.view.layer.insertSublayer(gradientLayer, at: 0)
+    }
+    
+
+    func blueBackground() {
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.frame = self.view.bounds
+        
+        gradientLayer.colors = [UIColor.init(red: 0.64, green: 0.96, blue: 0.95, alpha: 1.00).cgColor, UIColor.init(red: 0.17, green: 0.75, blue: 0.87, alpha: 1.00).cgColor, UIColor.init(red: 0.17, green: 0.75, blue: 0.87, alpha: 1.00).cgColor]
+        self.view.layer.insertSublayer(gradientLayer, at: 0)
+    }
+    
+    
+    func redBackground() {
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.frame = self.view.bounds
+        
+        gradientLayer.colors = [UIColor.init(red: 1.00, green: 0.52, blue: 0.54, alpha: 1.00).cgColor, UIColor.init(red: 0.89, green: 0.07, blue: 0.37, alpha: 1.00).cgColor, UIColor.init(red: 0.89, green: 0.07, blue: 0.37, alpha: 1.00).cgColor]
+        self.view.layer.insertSublayer(gradientLayer, at: 0)
+    }
+    
+    
+    func greenBackground() {
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.frame = self.view.bounds
+        
+        gradientLayer.colors = [UIColor.init(red: 0.76, green: 0.92, blue: 0.78, alpha: 1.00).cgColor, UIColor.init(red: 0.51, green: 0.93, blue: 0.60, alpha: 1.00).cgColor, UIColor.init(red: 0.51, green: 0.93, blue: 0.60, alpha: 1.00).cgColor]
+        self.view.layer.insertSublayer(gradientLayer, at: 0)
+    }
 
 }
