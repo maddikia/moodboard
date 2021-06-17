@@ -87,6 +87,17 @@ class RecommendationViewController: UIViewController {
                 break
         }
         
+        // ensure proper wrapping
+        bookTitle?.lineBreakMode = .byWordWrapping
+        songTitle?.lineBreakMode = .byWordWrapping
+        bookAuthor?.lineBreakMode = .byWordWrapping
+        songArtist?.lineBreakMode = .byWordWrapping
+        bookTitle?.numberOfLines = 0;
+        songTitle?.numberOfLines = 0;
+        bookAuthor?.numberOfLines = 0
+        songArtist?.numberOfLines = 0
+        
+        // randomly select emotion-specific book/song
         let bookNum = Int.random(in: 0..<books.count)
         bookTitle?.text = books[bookNum].title
         bookAuthor?.text = "by " + books[bookNum].author
@@ -96,15 +107,6 @@ class RecommendationViewController: UIViewController {
         songArtist?.text = "by " + songs[songNum].author
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
     func yellowBackground() {
         let gradientLayer = CAGradientLayer()
         gradientLayer.frame = self.view.bounds
@@ -139,5 +141,34 @@ class RecommendationViewController: UIViewController {
         gradientLayer.colors = [UIColor.init(red: 0.76, green: 0.92, blue: 0.78, alpha: 1.00).cgColor, UIColor.init(red: 0.51, green: 0.93, blue: 0.60, alpha: 1.00).cgColor, UIColor.init(red: 0.51, green: 0.93, blue: 0.60, alpha: 1.00).cgColor]
         self.view.layer.insertSublayer(gradientLayer, at: 0)
     }
+    
+    @IBAction func addReadingTapped(_ sender: Any) {
+        // we have to grab this view context to be able to work with Core Data
+        if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+            let book = ReadingListCD(entity: ReadingListCD.entity(), insertInto: context)
+            book.title = bookTitle?.text
+            book.author = bookAuthor?.text
+            try? context.save()
+        }
+    }
+    
+    
+    @IBAction func addSongTapped(_ sender: Any) {
+        if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+            let song = SongListCD(entity: SongListCD.entity(), insertInto: context)
+            song.title = songTitle?.text
+            song.author = songArtist?.text
+            try? context.save()
+        }
+    }
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+    }
+    */
 
 }
