@@ -1,38 +1,202 @@
 [
     {
         "title" : "Dog Days Are Over",
-        "artist" : "Florence + The Machine"
+        "author" : "Florence + The Machine"
     },
     {
         "title" : "Midnight City",
-        "artist" : "M83"
+        "author" : "M83"
     },
     {
         "title" : "What You Know",
-        "artist" : "Two Door Cinema Club"
+        "author" : "Two Door Cinema Club"
     },
     {
         "title" : "Feel Good Inc.",
-        "artist" : "Gorillaz"
+        "author" : "Gorillaz"
     },
     {
         "title" : "Tongue Tied",
-        "artist" : "Grouplove"
+        "author" : "Grouplove"
     },
     {
         "title" : "Walking On A Dream",
-        "artist" : "Empire of the Sun"
+        "author" : "Empire of the Sun"
     },
     {
         "title" : "The King",
-        "artist" : "Sarah Kinsley"
+        "author" : "Sarah Kinsley"
     },
     {
         "title" : "Electric Feel",
-        "artist" : "MGMT"
+        "author" : "MGMT"
     },
     {
         "title" : "Electric Love",
-        "artist" : "Borns"
+        "author" : "Borns"
+    },
+    {
+        "title" : "You'll Be on My Mind",
+        "author" : "waykap, Emmi"
+    },
+    {
+        "title" : "Time Will Tell",
+        "author" : "Yonetro, Jaurren, Lachi"
+    },
+    {
+        "title" : "Get To Know You",
+        "author" : "Samantha Harvey"
+    },
+    {
+        "title" : "I Love U",
+        "author" : "Loving Caliber"
+    },
+    {
+        "title" : "Cause You're the One",
+        "author" : "waykap, Heli"
+    },
+    {
+        "title" : "Someone To You",
+        "author" : "BANNERS"
+    },
+    {
+        "title" : "If I Was Your Girlfriend",
+        "author" : "Mondays, Lucy"
+    },
+    {
+        "title" : "Stick Together",
+        "author" : "Elijah N"
+    },
+    {
+        "title" : "Paradise",
+        "author" : "Elijah N, Lucy"
+    },
+    {
+        "title" : "Best Damn Thing",
+        "author" : "Alexander Stewart"
+    },
+    {
+        "title" : "Destiny",
+        "author" : "Rich Miller"
+    },
+    {
+        "title" : "Two Little Lights",
+        "author" : "Jack"
+    },
+    {
+        "title" : "Be Your Light",
+        "author" : "CLNGR"
+    },
+    {
+        "title" : "I Promise You",
+        "author" : "Yoolee"
+    },
+    {
+        "title" : "Favorite Part Of Me",
+        "author" : "Astrid S"
+    },
+    {
+        "title" : "Lucky",
+        "author" : "Chelsea Cutler, Alexander 23"
+    },
+    {
+        "title" : "Adore You",
+        "author" : "Harry Styles"
+    },
+    {
+        "title" : "You & I",
+        "author" : "One Direction"
+    },
+    {
+        "title" : "More Than You Know",
+        "author" : "Axwell /\\ Ingrosso"
+    },
+    {
+        "title" : "Conversations in the Dark",
+        "author" : "John Legend, David Guetta"
+    },
+    {
+        "title" : "ME BECAUSE OF YOU",
+        "author" : "HRVY"
+    },
+    {
+        "title" : "Don't Change",
+        "author" : "Why Don't We"
+    },
+    {
+        "title" : "Written In The Stars",
+        "author" : "WENDY, John Legend"
+    },
+    {
+        "title" : "SOMEONE'S SOMEONE",
+        "author" : "Monsta X"
+    },
+    {
+        "title" : "You Feel Like Home",
+        "author" : "Hills x Hills"
+    },
+    {
+        "title" : "Keep Your Head Up",
+        "author" : "Andy Grammer"
+    },
+    {
+        "title" : "Fine By Me",
+        "author" : "Andy Grammer"
+    },
+    {
+        "title" : "Classic",
+        "author" : "MKTO"
+    },
+    {
+        "title" : "Everybody Talks",
+        "author" : "Neon Trees"
+    },
+    {
+        "title" : "Still into You",
+        "author" : "Paramore"
+    },
+    {
+        "title" : "Here's to Never Growing Up",
+        "author" : "Avril Lavigne"
+    },
+    {
+        "title" : "Bluebery Eyes",
+        "author" : "MAX, SUGA"
+    },
+    {
+        "title" : "Through and Through",
+        "author" : "khai dreams"
+    },
+    {
+        "title" : "Ophelia",
+        "author" : "The Lumineers"
+    },
+    {
+        "title" : "Cloud 9",
+        "author" : "Beach Bunny"
+    },
+    {
+        "title" : "Talk Too Much",
+        "author" : "COIN"
+    },
+    {
+        "title" : "I Hear a Symphony",
+        "author" : "Cody Fry"
+    },
+    {
+        "title" : "Dandelions",
+        "author" : "Ruth B."
+    },
+    {
+        "title" : "Cupid's Chokehold / Breakfast in America",
+        "author" : "Gym Class Geroes"
+    },
+    {
+        "title" : "Birthday",
+        "author" : "Anne-Marie"
+    },
+    {
+        "title" : "Salt",
+        "author" : "Ava Max"
     },
 ]

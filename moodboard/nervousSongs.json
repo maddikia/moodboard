@@ -1,23 +1,94 @@
 [
     {
         "title" : "Bloom",
-        "artist" : "The Paper Kites"
+        "author" : "The Paper Kites"
     },
     {
         "title" : "Re:Stacks",
-        "artist" : "Bon Iver"
+        "author" : "Bon Iver"
     },
     {
         "title" : "Old Pine",
-        "artist" : "Ben Howard"
+        "author" : "Ben Howard"
     },
     {
         "title" : "Featherstone",
-        "artist" : "The Paper Kites"
+        "author" : "The Paper Kites"
     },
     {
         "title" : "Cottage Roads",
-        "artist" : "The Walters"
+        "author" : "The Walters"
     },
-
+    {
+        "title" : "Overwhelmed",
+        "author" : "Royal & the Serpent"
+    },
+    {
+        "title" : "Maybe It Was Me",
+        "author" : "Sody"
+    },
+    {
+        "title" : "Hear Me Out",
+        "author" : "36 Questions"
+    },
+    {
+        "title" : "Fools",
+        "author" : "Lauren Aquilina"
+    },
+    {
+        "title" : "I’ll Be Good",
+        "author" : "Jaymes Young"
+    },
+    {
+        "title" : "Hero n Villain",
+        "author" : "Natalie Chavez"
+    },
+    {
+        "title" : "Bad Dreams",
+        "author" : "Faouzia"
+    },
+    {
+        "title" : "Are You Bored Yet?",
+        "author" : "Wallows, Clairo"
+    },
+    {
+        "title" : "Version Of Me",
+        "author" : "Sasha Sloan"
+    },
+    {
+        "title" : "You Don’t Even Know Me",
+        "author" : "Faouzia"
+    },
+    {
+        "title" : "I Am",
+        "author" : "James Arthur"
+    },
+    {
+        "title" : "Bad Liar",
+        "author" : "Imagine Dragons"
+    },
+    {
+        "title" : "It Took Me By Surprise",
+        "author" : "Maria Mena"
+    },
+    {
+        "title" : "Meteor Shower",
+        "author" : "Cavetown"
+    },
+    {
+        "title" : "No Friends",
+        "author" : "Cadmium and Rosendale"
+    },
+    {
+        "title" : "Alone",
+        "author" : "Nico Collins"
+    },
+    {
+        "title" : "Silence",
+        "author" : "Marshmello"
+    },
+    {
+        "title" : "Stressed Out",
+        "author" : "Twenty-One Pilots"
+    },
 ]

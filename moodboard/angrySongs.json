@@ -1,54 +1,78 @@
 [
     {
         "title" : "Do I Wanna Know?",
-        "artist" : "Arctic Monkeys"
+        "author" : "Arctic Monkeys"
     },
     {
         "title" : "Elephant",
-        "artist" : "Tame Impala"
+        "author" : "Tame Impala"
     },
     {
         "title" : "Hayloft",
-        "artist" : "Mother Mother"
+        "author" : "Mother Mother"
     },
     {
         "title" : "Hush",
-        "artist" : "The Marias"
+        "author" : "The Marias"
     },
     {
         "title" : "good 4 u",
-        "artist" : "Olivia Rodrigo"
+        "author" : "Olivia Rodrigo"
     },
     {
         "title" : "Left Hand Free",
-        "artist" : "alt-J"
+        "author" : "alt-J"
     },
     {
         "title" : "Black Out Days",
-        "artist" : "Phantogram"
+        "author" : "Phantogram"
     },
     {
         "title" : "Therefore I Am",
-        "artist" : "Billie Eilish"
+        "author" : "Billie Eilish"
     },
     {
         "title" : "505",
-        "artist" : "Arctic Monkeys"
+        "author" : "Arctic Monkeys"
     },
     {
         "title" : "Seven Nation Army",
-        "artist" : "The White Stripes"
+        "author" : "The White Stripes"
     },
     {
         "title" : "When You Die",
-        "artist" : "MGMT"
+        "author" : "MGMT"
     },
     {
         "title" : "Pleaser",
-        "artist" : "Wallows"
+        "author" : "Wallows"
     },
     {
         "title" : "Dangerous",
-        "artist" : "Big Data"
+        "author" : "Big Data"
+    },
+    {
+        "title" : "good 4 u",
+        "author" : "Olivia Rodrigo"
+    },
+    {
+        "title" : "jealousy, jealousy",
+        "author" : "Olivia Rodrigo"
+    },
+    {
+        "title" : "Rät",
+        "author" : "Penelope Scott"
+    },
+    {
+        "title" : "Let You Know",
+        "author" : "Sody"
+    },
+    {
+        "title" : "Anxiety",
+        "author" : "Anna Clandening"
+    },
+    {
+        "title" : "Drama Club",
+        "author" : "Melanie Martinez"
     },
 ]

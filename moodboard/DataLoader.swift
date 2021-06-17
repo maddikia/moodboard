@@ -26,7 +26,7 @@ public class DataLoader {
                 let dataFromJson = try jsonDecoder.decode([MediaInfo].self, from: data)
                 self.mediaData = dataFromJson
             } catch {
-                print("hi")
+                print(fileName)
                 print(error)
             }
         }

@@ -49,42 +49,42 @@
     },
     {
         "title" : "Count Me In",
-        "artist" : "Early Winters"
+        "author" : "Early Winters"
     },
     {
         "title" : "Last Time",
-        "artist" : "Adam Melchor"
+        "author" : "Adam Melchor"
     },
     {
         "title" : "Je te laisserai des mots",
-        "artist" : "Patrick Watson"
+        "author" : "Patrick Watson"
     },
     {
         "title" : "It's Ok - Acoustic",
-        "artist" : "Tom Rosenthal"
+        "author" : "Tom Rosenthal"
     },
     {
         "title" : "Lights Are On",
-        "artist" : "Tom Rosenthal"
+        "author" : "Tom Rosenthal"
     },
     {
         "title" : "Cartoon People",
-        "artist" : "Billie Marten"
+        "author" : "Billie Marten"
     },
     {
         "title" : "Roslyn",
-        "artist" : "Bon Iver"
+        "author" : "Bon Iver"
     },
     {
         "title" : "Shrike",
-        "artist" : "Hozier"
+        "author" : "Hozier"
     },
     {
         "title" : "Smoke Signals",
-        "artist" : "Phoebe Bridgers"
+        "author" : "Phoebe Bridgers"
     },
     {
         "title" : "Sparks",
-        "artist" : "Coldplay"
+        "author" : "Coldplay"
     },
 ]
