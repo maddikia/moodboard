@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bzE-tB-oeU">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bzE-tB-oeU">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -326,7 +326,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="readIdentifier" id="sOl-5p-T0X" customClass="ReadingTableViewCell" customModule="moodboard" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="414" height="100"/>
+                                <rect key="frame" x="0.0" y="24.5" width="414" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="sOl-5p-T0X" id="ngK-dp-T6H">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
@@ -382,14 +382,124 @@
                     <view key="view" contentMode="scaleToFill" id="jBa-Nk-DRL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="arG-WO-SzO">
+                                <rect key="frame" x="20" y="103" width="374" height="93"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="374" id="NwD-Kd-hZc"/>
+                                    <constraint firstAttribute="height" constant="93" id="fNx-Wz-Ui5"/>
+                                </constraints>
+                                <string key="text">The goal reamains as finding ways to alllow you to find books and music that you enjoy. We also want to make sure that you have the oppurtunity to find them affordably to accomodate all users. </string>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Thriftbooks" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SdQ-Re-3FA">
+                                <rect key="frame" x="140" y="221" width="134" height="34"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f26-JR-3bD">
+                                <rect key="frame" x="10" y="260" width="394" height="55"/>
+                                <string key="text">Over 13 million titles available from the largest seller of used books. Most books on this site range from $3 to $5. They offer both new and slighty used books.</string>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Powell's Books" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="P76-Di-7uB">
+                                <rect key="frame" x="140" y="340" width="134" height="34"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="llH-Z7-F1R">
+                                <rect key="frame" x="10" y="379" width="394" height="55"/>
+                                <string key="text">A well-known Portland-based bookstore that sells many new and used books of different genres. It is a great option as they provide ways to resell books after the user is done. </string>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="16"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="AbeBooks" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kyc-J5-eFp">
+                                <rect key="frame" x="140" y="459" width="134" height="34"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="An e-commerse global online marketplace that offers books from independent sellers from all over the world." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wcs-pX-Wl5">
+                                <rect key="frame" x="10" y="498" width="394" height="37"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Better World Books" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="l5q-At-wxi">
+                                <rect key="frame" x="140" y="560" width="134" height="34"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="13"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uHP-5U-hGv">
+                                <rect key="frame" x="5" y="604" width="414" height="55"/>
+                                <string key="text">The socially responsible bookstore with cheap new and used books at bargain prices. Uses portion of revenue of each purchase to support literacy, libraries, and education.</string>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Half Price Books" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Wjv-8t-DYg">
+                                <rect key="frame" x="140" y="684" width="134" height="34"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="13"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Physical stores all over the United States and online store. Sells inexpensive new and used books. " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xgp-5w-n8O">
+                                <rect key="frame" x="5" y="728" width="404" height="37"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="8iX-Ey-yqg"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.97096806764602661" green="0.95320338010787964" blue="0.88866209983825684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="kyc-J5-eFp" firstAttribute="top" secondItem="llH-Z7-F1R" secondAttribute="bottom" constant="25" id="0Wq-6E-ODB"/>
+                            <constraint firstItem="P76-Di-7uB" firstAttribute="leading" secondItem="8iX-Ey-yqg" secondAttribute="leading" constant="140" id="6Ug-lK-1TC"/>
+                            <constraint firstAttribute="trailing" secondItem="wcs-pX-Wl5" secondAttribute="trailing" constant="10" id="6na-yp-7dh"/>
+                            <constraint firstItem="wcs-pX-Wl5" firstAttribute="top" secondItem="kyc-J5-eFp" secondAttribute="bottom" constant="5" id="6yY-X8-tyK"/>
+                            <constraint firstItem="Xgp-5w-n8O" firstAttribute="leading" secondItem="8iX-Ey-yqg" secondAttribute="leading" constant="5" id="7Ua-IV-itO"/>
+                            <constraint firstItem="8iX-Ey-yqg" firstAttribute="trailing" secondItem="Wjv-8t-DYg" secondAttribute="trailing" constant="140" id="93V-7o-wqL"/>
+                            <constraint firstItem="8iX-Ey-yqg" firstAttribute="trailing" secondItem="P76-Di-7uB" secondAttribute="trailing" constant="140" id="BSn-z8-aWj"/>
+                            <constraint firstItem="f26-JR-3bD" firstAttribute="leading" secondItem="8iX-Ey-yqg" secondAttribute="leading" constant="10" id="CFW-GT-Pak"/>
+                            <constraint firstItem="l5q-At-wxi" firstAttribute="top" secondItem="wcs-pX-Wl5" secondAttribute="bottom" constant="25" id="DF4-KZ-83U"/>
+                            <constraint firstItem="llH-Z7-F1R" firstAttribute="leading" secondItem="8iX-Ey-yqg" secondAttribute="leading" constant="10" id="Et9-6Y-daF"/>
+                            <constraint firstItem="SdQ-Re-3FA" firstAttribute="top" secondItem="arG-WO-SzO" secondAttribute="bottom" constant="25" id="G0w-0l-lzf"/>
+                            <constraint firstItem="arG-WO-SzO" firstAttribute="top" secondItem="8iX-Ey-yqg" secondAttribute="top" constant="15" id="Hlt-fB-MKL"/>
+                            <constraint firstItem="wcs-pX-Wl5" firstAttribute="leading" secondItem="8iX-Ey-yqg" secondAttribute="leading" constant="10" id="IjM-w0-X8B"/>
+                            <constraint firstItem="kyc-J5-eFp" firstAttribute="leading" secondItem="8iX-Ey-yqg" secondAttribute="leading" constant="140" id="MtF-ep-Rdv"/>
+                            <constraint firstItem="8iX-Ey-yqg" firstAttribute="trailing" secondItem="l5q-At-wxi" secondAttribute="trailing" constant="140" id="N5f-R8-vhB"/>
+                            <constraint firstItem="l5q-At-wxi" firstAttribute="leading" secondItem="8iX-Ey-yqg" secondAttribute="leading" constant="140" id="TDz-Yt-kSi"/>
+                            <constraint firstItem="Xgp-5w-n8O" firstAttribute="top" secondItem="Wjv-8t-DYg" secondAttribute="bottom" constant="10" id="U77-HF-Bo6"/>
+                            <constraint firstAttribute="trailing" secondItem="Xgp-5w-n8O" secondAttribute="trailing" constant="5" id="VQu-E9-Zkl"/>
+                            <constraint firstItem="8iX-Ey-yqg" firstAttribute="trailing" secondItem="f26-JR-3bD" secondAttribute="trailing" constant="10" id="VZf-tM-ZTP"/>
+                            <constraint firstItem="8iX-Ey-yqg" firstAttribute="trailing" secondItem="arG-WO-SzO" secondAttribute="trailing" constant="20" id="Xfu-Ya-EDN"/>
+                            <constraint firstItem="llH-Z7-F1R" firstAttribute="top" secondItem="P76-Di-7uB" secondAttribute="bottom" constant="5" id="Y6T-5A-8py"/>
+                            <constraint firstItem="Wjv-8t-DYg" firstAttribute="top" secondItem="uHP-5U-hGv" secondAttribute="bottom" constant="25" id="eKn-8T-VyD"/>
+                            <constraint firstItem="uHP-5U-hGv" firstAttribute="leading" secondItem="8iX-Ey-yqg" secondAttribute="leading" constant="5" id="fSb-Pe-glb"/>
+                            <constraint firstItem="arG-WO-SzO" firstAttribute="leading" secondItem="8iX-Ey-yqg" secondAttribute="leading" constant="20" id="fmV-Ba-A0e"/>
+                            <constraint firstItem="8iX-Ey-yqg" firstAttribute="trailing" secondItem="kyc-J5-eFp" secondAttribute="trailing" constant="140" id="hdL-iD-Gxi"/>
+                            <constraint firstItem="uHP-5U-hGv" firstAttribute="top" secondItem="l5q-At-wxi" secondAttribute="bottom" constant="10" id="htZ-Ij-gwN"/>
+                            <constraint firstItem="SdQ-Re-3FA" firstAttribute="leading" secondItem="8iX-Ey-yqg" secondAttribute="leading" constant="140" id="kqR-kw-xuP"/>
+                            <constraint firstItem="P76-Di-7uB" firstAttribute="top" secondItem="f26-JR-3bD" secondAttribute="bottom" constant="25" id="ouv-M0-2lA"/>
+                            <constraint firstItem="uHP-5U-hGv" firstAttribute="trailing" secondItem="8iX-Ey-yqg" secondAttribute="trailing" constant="5" id="ovZ-ir-gNZ"/>
+                            <constraint firstItem="f26-JR-3bD" firstAttribute="top" secondItem="SdQ-Re-3FA" secondAttribute="bottom" constant="5" id="qxc-nW-Q10"/>
+                            <constraint firstItem="8iX-Ey-yqg" firstAttribute="trailing" secondItem="SdQ-Re-3FA" secondAttribute="trailing" constant="140" id="vLe-XA-ODK"/>
+                            <constraint firstItem="8iX-Ey-yqg" firstAttribute="trailing" secondItem="llH-Z7-F1R" secondAttribute="trailing" constant="10" id="vRr-St-L2i"/>
+                            <constraint firstItem="Wjv-8t-DYg" firstAttribute="leading" secondItem="8iX-Ey-yqg" secondAttribute="leading" constant="140" id="ycN-Td-qog"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Affordable Resources" id="HLZ-i5-Zud"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zDb-bz-igd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1354" y="780"/>
+            <point key="canvasLocation" x="1353.6231884057972" y="779.46428571428567"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="7pZ-mZ-WdR">
@@ -419,7 +529,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="songIdentifier" id="LxR-XR-Ld3" customClass="SongTableViewCell" customModule="moodboard" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="414" height="100"/>
+                                <rect key="frame" x="0.0" y="24.5" width="414" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LxR-XR-Ld3" id="aoh-Ty-GvD">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
