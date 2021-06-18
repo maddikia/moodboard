@@ -30,21 +30,23 @@ class RecommendationViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        mood?.numberOfLines = 0
+        mood?.lineBreakMode = .byWordWrapping
         switch emotion {
             case "happy":
-                mood?.text = "happy quote"
+                mood?.text = "The simplest things can bring the most happiness."
                 yellowBackground()
                 break
             case "sad":
-                mood?.text = "sad quote"
+                mood?.text = "Sadness flies away on the wings of time."
                 blueBackground()
                 break
             case "angry":
-                mood?.text = "angry quote"
+                mood?.text = "If you are patient in one moment of anger, you will escape a hundred days of sorrow."
                 redBackground()
                 break
             case "nervous":
-                mood?.text = "nervous quote"
+                mood?.text = "Do not anticipate trouble, or worry about what may never happen. Keep in the sunlight."
                 greenBackground()
                 break
             default:
