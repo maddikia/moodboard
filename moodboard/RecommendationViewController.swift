@@ -111,7 +111,7 @@ class RecommendationViewController: UIViewController {
         let gradientLayer = CAGradientLayer()
         gradientLayer.frame = self.view.bounds
         
-        gradientLayer.colors = [UIColor.init(red: 1.00, green: 0.93, blue: 0.60, alpha: 1.00).cgColor, UIColor.init(red: 0.97,  green: 0.84, blue: 0.15, alpha: 1.00).cgColor, UIColor.init(red: 0.97, green: 0.84, blue: 0.15, alpha: 1.00).cgColor, UIColor.init(red: 0.97, green: 0.84, blue: 0.15, alpha: 1.00).cgColor]
+        gradientLayer.colors = [UIColor.init(red: 0.97,  green: 0.84, blue: 0.15, alpha: 1.00).cgColor, UIColor.init(red: 0.97,  green: 0.84, blue: 0.15, alpha: 1.00).cgColor, UIColor.init(red: 1.00, green: 0.93, blue: 0.60, alpha: 1.00).cgColor]
         self.view.layer.insertSublayer(gradientLayer, at: 0)
     }
     
@@ -120,7 +120,7 @@ class RecommendationViewController: UIViewController {
         let gradientLayer = CAGradientLayer()
         gradientLayer.frame = self.view.bounds
         
-        gradientLayer.colors = [UIColor.init(red: 0.64, green: 0.96, blue: 0.95, alpha: 1.00).cgColor, UIColor.init(red: 0.17, green: 0.75, blue: 0.87, alpha: 1.00).cgColor, UIColor.init(red: 0.17, green: 0.75, blue: 0.87, alpha: 1.00).cgColor]
+        gradientLayer.colors = [UIColor.init(red: 0.51, green: 0.74, blue: 0.77, alpha: 1.00).cgColor, UIColor.init(red: 0.51, green: 0.74, blue: 0.77, alpha: 1.00).cgColor, UIColor.init(red: 0.62, green: 0.80, blue: 0.82, alpha: 1.00).cgColor]
         self.view.layer.insertSublayer(gradientLayer, at: 0)
     }
     
@@ -129,7 +129,7 @@ class RecommendationViewController: UIViewController {
         let gradientLayer = CAGradientLayer()
         gradientLayer.frame = self.view.bounds
         
-        gradientLayer.colors = [UIColor.init(red: 1.00, green: 0.52, blue: 0.54, alpha: 1.00).cgColor, UIColor.init(red: 0.89, green: 0.07, blue: 0.37, alpha: 1.00).cgColor, UIColor.init(red: 0.89, green: 0.07, blue: 0.37, alpha: 1.00).cgColor]
+        gradientLayer.colors = [UIColor.init(red: 0.91, green: 0.42, blue: 0.37, alpha: 1.00).cgColor, UIColor.init(red: 0.91, green: 0.42, blue: 0.37, alpha: 1.00).cgColor, UIColor.init(red: 1.00, green: 0.52, blue: 0.54, alpha: 1.00).cgColor]
         self.view.layer.insertSublayer(gradientLayer, at: 0)
     }
     
@@ -138,7 +138,7 @@ class RecommendationViewController: UIViewController {
         let gradientLayer = CAGradientLayer()
         gradientLayer.frame = self.view.bounds
         
-        gradientLayer.colors = [UIColor.init(red: 0.76, green: 0.92, blue: 0.78, alpha: 1.00).cgColor, UIColor.init(red: 0.51, green: 0.93, blue: 0.60, alpha: 1.00).cgColor, UIColor.init(red: 0.51, green: 0.93, blue: 0.60, alpha: 1.00).cgColor]
+        gradientLayer.colors = [UIColor.init(red: 0.51, green: 0.93, blue: 0.60, alpha: 1.00).cgColor, UIColor.init(red: 0.51, green: 0.93, blue: 0.60, alpha: 1.00).cgColor, UIColor.init(red: 0.70, green: 0.98, blue: 0.76, alpha: 1.00).cgColor]
         self.view.layer.insertSublayer(gradientLayer, at: 0)
     }
     
